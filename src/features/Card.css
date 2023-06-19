@@ -1,0 +1,54 @@
+.card{
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+.chip{
+  padding: 4px;
+
+background: rgba(223, 168, 116, 0.2);
+border-radius: 4px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.chip p {
+    font-weight: 500;
+font-size: 12px;
+}
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+.card-body p {
+    font-weight: 400;
+font-size: 12px;
+margin-top: 6px;
+color: #787486;
+
+}
+
+.card-footer{
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-footer-interactions{
+    display: flex;
+    gap: 15px;
+}
+.card-footer-singleinteraction{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+font-size: 12px;
+gap: 5px;
+color: #787486;
+}

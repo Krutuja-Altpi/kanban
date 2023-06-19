@@ -1,0 +1,51 @@
+.board{
+   background-color: #F5F5F5;
+   width: 354px;
+   border-radius: 16px;
+   padding: 0 20px;
+  
+}
+.board_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0;
+}
+.board_top_firsthalf{
+    display: flex;
+    align-items: center;
+}
+.board_top_firsthalf h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+.board_top_firsthalf p{
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E0E0E0;
+border-radius: 10px;
+margin-left: 12px;
+}
+.board_top_secondhalf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+ 
+}
+.divider{
+    border: 3px solid #5030E5;
+}
+.board_cards{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
